@@ -1,4 +1,4 @@
-package ru.easyjava.maven;
+package multimod;
 
 import org.junit.Test;
 
@@ -11,6 +11,6 @@ import static org.junit.Assert.assertThat;
 public class GreetingTargetTest {
     @Test
     public void testGreet() {
-        assertThat(GreetingTarget.getTarget(), is("Modules"));
+        assertThat(GreetingTarget.getTarget(), is("I'm two Module"));
     }
 }
